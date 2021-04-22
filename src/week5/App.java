@@ -8,20 +8,14 @@ public class App {
 	
 	public static void main(String[] args) {
 		
-		Logger asterisk = new AsteriskLogger();
-		Logger logger = new SpacedLogger();
+		Logger asteriskLogger = new AsteriskLogger();
+		Logger spacedLogger = new SpacedLogger();
 		
-		//String userInput;
-		//System.out.print("Please enter a word for the asterisk class: ");
-		//userInput = scanner.next();
-		//asterisk.Log(userInput);
-		//asterisk.Error(userInput);
-		
-		asterisk.Log("asteriskHello");
-		asterisk.Error("asteriskError");
+		asteriskLogger.Log("asteriskHello");
+		asteriskLogger.Error("asteriskError");
 				
-		logger.Log("SpacedHello");
-		logger.Error("SpacedError");
+		spacedLogger.Log("SpacedHello");
+		spacedLogger.Error("SpacedError");
 		
 	}
 
